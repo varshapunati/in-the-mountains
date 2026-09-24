@@ -416,7 +416,7 @@ and (min-width: 550px) {
 	nav {
 		margin: 1.5em 0em 0em 1em;
 		width: 74%;
-		padding: .3em 0em;
+		padding: .25em 0em;
 		position: fixed;           
     	z-index: 1000;
     	border-radius: .7em;
@@ -588,12 +588,12 @@ and (min-width: 550px) {
 	}
 
 	.spacer1 {
-		height: 25vh;
+		height: 15vh;
 		background-image: linear-gradient(to bottom, #74B3FF, transparent);
 	}
 
 	.spacer2 {
-		height: 25vh;
+		height: 15vh;
 		background-image: linear-gradient(to top, #74B3FF, transparent);
 		clear: both;
 	}
