@@ -707,6 +707,7 @@ and (min-width: 550px) {
 	.post h2 {
 		color: #BF1F1F;
 		line-height: 1em;
+		font-size: 2.5em;
 	}
 
 	.date {
