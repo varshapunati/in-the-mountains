@@ -432,6 +432,7 @@ and (min-width: 550px) {
 		margin: 0em 1em;
 		font-weight: 350;
 		display: none;
+		font-size: .5em;
 	}
 
 	nav a:hover {
@@ -650,7 +651,7 @@ and (min-width: 550px) {
 	.climb {
 		margin: 1em 0em;
 		padding: 3em 2.2em;
-		flex: 0 0 120%;
+		flex: 0 0 110%;
 		height: auto;
 		border-radius: 1.5em;
   		background: rgba(255, 255, 255, 0.3); 
