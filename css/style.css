@@ -415,7 +415,7 @@ and (min-width: 550px) {
 
 	nav {
 		margin: 1.5em 0em 0em 1em;
-		width: 78%;
+		width: 72%;
 		padding: .2em 0em;
 		position: fixed;           
     	z-index: 1000;
@@ -437,10 +437,12 @@ and (min-width: 550px) {
 
 	nav a:hover {
 		color: #1D1D1B;
+		border-radius: 1em;
 	} 
 
 	nav a.stay {
         display: block;
+		border-radius: 1em;
     }
 
     nav:hover a {
