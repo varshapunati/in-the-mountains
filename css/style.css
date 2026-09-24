@@ -415,8 +415,7 @@ and (min-width: 550px) {
 
 	nav {
 		margin: 1.5em 0em 0em 1em;
-		width: 90%;
-		padding: .5em 0em;
+		width: 80%;
 		position: fixed;           
     	z-index: 1000;
     	border-radius: 1em;
