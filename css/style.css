@@ -1,0 +1,741 @@
+/* max-width and min-width is the size of the screen not the device----------- */
+/* max-device-width and min-device-width is the size of the device not the screen----------- */
+
+/* Desktop and Laptop, min-width equals the container size----------- */
+/* min-width, the minimum and up----------- */
+@media all 
+and (min-width: 550px) {
+
+	body {
+		font-family: "neulis-neue", sans-serif;
+		font-weight: 300;
+		font-style: italic; 
+		font-size: 1.3vw; /*sets a font size to the whole site*/
+		line-height: 1.3em; /*sets a font height or leading to the whole site*/
+		background-color: #f5f5f5;
+		color: #1D1D1B; /*sets a font color to the whole site*/ 
+		margin: 1em 0em;
+	}
+
+
+	b {
+		font-weight: 450;
+	}
+
+	header {
+		background-color: whitesmoke;
+		padding: 0em;
+		text-align: left;
+		font-size: 1.5em;
+	}
+
+	.stay {
+		font-weight: 415;
+	}
+
+	a {
+		text-decoration: none;
+		font-weight: 350;
+		color: #45A4AD;
+	}
+
+	nav {
+		margin: 1.5em 0em 0em 1em;
+		width: 41%;
+		padding: .5em;
+		position: fixed;           
+    	z-index: 1000;
+    	border-radius: 1em;
+  		background: rgba(255, 255, 255, 0.3); 
+  		backdrop-filter: blur(4px);
+  		border: 1.5px solid rgba(255, 255, 255, 0.25);
+  		box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.15);
+	}
+
+	nav a {
+		color: #BF1F1F;
+		margin-left: 1em;
+		font-weight: 350;
+	}
+
+	nav a:hover {
+		color: #1D1D1B;
+	} 
+
+	footer {
+		clear: both;
+		padding-top: 1em;
+		text-align: center;
+	}
+
+	h1, h3, p {
+		font-weight: 350;
+	}
+
+	h2 {
+		font-weight: 350;
+		color: #BF1F1F;
+		font-size: 2.5vw;
+	}
+
+	h6 {
+		font-size: 1.5vw;
+		background-color: #9ACD32;
+		color: #1d1d1b;
+		margin: 2em 0em;
+		padding: .5em;
+		border-radius: 1em;
+		width: 7em;
+		text-align: center;
+		clear: both;
+	}
+
+	img {
+		width: 100%;
+		margin-bottom: .5em;
+	}
+
+	article {
+		padding: 0em 4em;
+		clear: both;
+	}
+
+	section {
+		clear: both;
+	}
+
+	/* PAGE ONE HERO SECTION */
+
+	#hero {
+		margin: -2em 0em 0em;
+		padding: 0em;
+		display: flex;
+	}
+
+	#hero img {
+		width: 50%;
+	}
+
+	/* PAGE ONE GENERAL SECTION */
+
+	#general {
+		text-align: center;
+		padding: 4em 0em;
+		font-size: 1.5em;
+		align-content: center;
+	}
+
+	#gal {
+		padding: 3em 0em .5em;
+		display: flex;
+		justify-content: left;
+		gap: .5%;
+		overflow-x: auto;
+  		overflow-y: hidden;
+  		-webkit-overflow-scrolling: touch; 
+  		width: 100%;
+  		scrollbar-width: none; 
+		-ms-overflow-style: none;
+	}
+
+	#gal::-webkit-scrollbar {
+		display: none;
+	}
+
+	#gal img {
+		height: 35vh;
+		width: auto;
+		transition: transform 0.3s ease; 
+	}
+
+	#gal img:hover {
+		transform: scale(1.15);
+		z-index: 10;
+	}
+
+	#general h6 {
+		clear: both;
+		margin: 1em auto -6em;
+	}
+
+	#general a {
+		color: whitesmoke;
+	}
+
+	#general h6:hover {
+		background-color: #1d1d1b;
+	}
+
+
+	/* PAGE ONE ABOUT SECTION */
+
+	#about {
+		background-color: #74B3FF;
+		padding: 1em 4em;
+		overflow: auto;
+	}
+
+	#about h2 {
+		padding: 0em 0em 1em;
+	}
+
+	#about div {
+		padding: 2em 0em;
+		float: left;
+		width: 60%;
+	}
+
+	#about img {
+		float: right;
+		width: 30%;
+		padding: 1em 0em;
+	}
+
+	#about h6 {
+		margin-top: 1em;
+		width: 13.2em;
+	}
+
+	#about a {
+		color: whitesmoke;
+		margin-left: 0em;
+	}
+
+	#about h6:hover {
+		margin-left: 0em;
+		background-color: #1d1d1b;
+	}
+
+	.spacer1 {
+		height: 25vh;
+		background-image: linear-gradient(to bottom, #74B3FF, transparent);
+	}
+
+	.spacer2 {
+		height: 25vh;
+		background-image: linear-gradient(to top, #74B3FF, transparent);
+		clear: both;
+	}
+
+	.spacer3 {
+		height: 18vh;
+		clear: both;
+	}
+
+	.spacer4 {
+		margin: -2em 0em 0em;
+		height: 18vh;
+		clear: both;
+	}
+
+
+	/*PAGE TWO */
+
+	#blurb {
+		text-align: center;
+		margin-top: -2em;
+		padding: 8em 20em 3em;
+	}
+
+	#hikes {
+		padding: 2em 0em;
+		background-image: url('../images/background-01.png');
+		background-color: #9ACD32;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover;
+	}
+
+	#hikes h1 {
+		padding-left: 2em;
+		color: whitesmoke;
+	}
+
+	#scroll {
+		padding: 0em 2em;
+		display: flex;
+		gap: 1.5%;
+		overflow-x: auto;
+  		-webkit-overflow-scrolling: touch; 
+  		scrollbar-width: none; 
+		-ms-overflow-style: none;
+	}
+
+	#scroll::-webkit-scrollbar {
+		display: none;
+	}
+
+
+	.climb {
+		margin: 1em 0em;
+		padding: 3em 2.2em;
+		flex: 0 0 35%;
+		height: auto;
+		border-radius: 1.5em;
+  		background: rgba(255, 255, 255, 0.3); 
+  		backdrop-filter: blur(3px);
+  		border: 1.5px solid rgba(255, 255, 255, 0.25);
+  		box-shadow: 0 8px 15px 0 rgba(0, 0, 0, 0.15);
+	}
+
+
+	.climb img {
+		padding-bottom: .5em;
+	}
+	
+	.climb h2 {
+		color: #74B3FF;
+		font-size: 1.7em;
+	}
+
+	.climb h3 {
+		padding: .5em 0em;
+		color: #BF1F1F;
+	}
+
+	/*PAGE THREE */
+
+
+	#blog {
+		margin: -2em 0em 0em;
+		padding: 5.5em 4em 2em;
+		background-image: linear-gradient(to bottom, transparent, transparent, transparent, transparent, transparent, transparent, transparent, whitesmoke, whitesmoke), url('../images/fieldnotes-bg.jpg');
+		background-color: #9ACD32;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover;
+	}
+
+	.post {
+		margin-bottom: 1.5em;
+		padding: 2.2em;
+		border-radius: 1em;
+  		background: rgba(255, 255, 255, 0.3); 
+  		backdrop-filter: blur(4px);
+  		border: 1.5px solid rgba(255, 255, 255, 0.25);
+  		box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.15);
+	}
+
+	.post h3 {
+		padding: 1em 0em .5em;
+		color: whitesmoke;
+	}
+
+	.post h2 {
+		color: #BF1F1F;
+	}
+
+	.date {
+		margin-top: 1em;
+	}
+
+	/* PAGE FOUR */
+
+	#gallery {
+		margin: -2em 0em 0em;
+		padding: 5.5em 0em 2em;
+	}
+
+	#gallery h1 {
+		padding-left: 2em;
+		color: #74B3FF;
+	}
+
+	div.scroll-container {
+		clear: both;
+		justify-content: center;
+		display: flex;
+    	flex-wrap: wrap;
+      	column-gap: .6%;
+      	padding: .2em 0em;
+      	white-space: nowrap;
+	}
+
+	div.scroll-container img {
+  		height: 15.515vw;
+  		width: auto;
+	}
+
+}
+
+
+
+
+
+/* Sizes of different screens */
+
+	@media all and (max-width: 550px) {
+
+
+	body {
+		font-family: "neulis-neue", sans-serif;
+		font-weight: 300;
+		font-style: italic; 
+		font-size: 2.5vw; /*sets a font size to the whole site*/
+		line-height: 2em; /*sets a font height or leading to the whole site*/
+		background-color: #f5f5f5;
+		color: #1D1D1B; /*sets a font color to the whole site*/ 
+		margin: 1em 0em;
+	}
+
+	body {
+		font-family: "neulis-neue", sans-serif;
+		font-weight: 300;
+		font-style: italic; 
+		font-size: 3vw; /*sets a font size to the whole site*/
+		line-height: 1.3em; /*sets a font height or leading to the whole site*/
+		background-color: #f5f5f5;
+		color: #1D1D1B; /*sets a font color to the whole site*/ 
+		margin: 1em 0em;
+	}
+
+
+	b {
+		font-weight: 450;
+	}
+
+	header {
+		background-color: whitesmoke;
+		padding: 0em;
+		text-align: left;
+		font-size: 1.5em;
+	}
+
+	.stay {
+		font-weight: 415;
+	}
+
+	a {
+		text-decoration: none;
+		font-weight: 350;
+		color: #45A4AD;
+	}
+
+	nav {
+		margin: 1.5em 0em 0em 1em;
+		width: 90%;
+		padding: .5em 0em;
+		position: fixed;           
+    	z-index: 1000;
+    	border-radius: 1em;
+  		background: rgba(255, 255, 255, 0.3); 
+  		backdrop-filter: blur(4px);
+  		border: 1.5px solid rgba(255, 255, 255, 0.25);
+  		box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.15);
+	}
+
+
+	nav a {
+		color: #BF1F1F;
+		margin: 0em 1em;
+		font-weight: 350;
+		display: none;
+	}
+
+	nav a:hover {
+		color: #1D1D1B;
+	} 
+
+	nav a.stay {
+        display: block;
+    }
+
+    nav:hover a {
+    	display: block;
+    	padding-bottom: .5em;
+    }
+
+	footer {
+		clear: both;
+		padding-top: 1em;
+		text-align: center;
+	}
+
+	h1, h3, p {
+		font-weight: 350;
+	}
+
+	h2 {
+		font-weight: 350;
+		color: #BF1F1F;
+		font-size: 5vw;
+	}
+
+	h6 {
+		font-size: 3.3vw;
+		background-color: #9ACD32;
+		color: #1d1d1b;
+		margin: 2em 0em;
+		padding: .5em;
+		border-radius: 1.5em;
+		width: 7em;
+		text-align: center;
+		clear: both;
+	}
+
+	img {
+		width: 100%;
+		margin-bottom: .5em;
+	}
+
+	article {
+		padding: 0em 4em;
+		clear: both;
+	}
+
+	section {
+		clear: both;
+	}
+
+	/* PAGE ONE HERO SECTION */
+
+	#hero {
+		margin: -2em 0em 0em;
+		padding: 0em;
+	}
+
+	#hero img {
+		width: 100%;
+		margin-top: -1em;
+	}
+
+	/* PAGE ONE GENERAL SECTION */
+
+	#general {
+		text-align: center;
+		padding: 4em 0em;
+		font-size: .9em;
+		line-height: .9em;
+		align-content: center;
+	}
+
+	#gal {
+		padding: 4em 0em 1em;
+		display: flex;
+		justify-content: left;
+		gap: 2%;
+		overflow-x: auto;
+  		overflow-y: hidden;
+  		-webkit-overflow-scrolling: touch; 
+  		width: 100%;
+  		scrollbar-width: none; 
+		-ms-overflow-style: none;
+	}
+
+	#gal::-webkit-scrollbar {
+		display: none;
+	}
+
+	#gal img {
+		height: 35vh;
+		width: auto;
+		transition: transform 0.3s ease; 
+	}
+
+	#gal img:hover {
+		transform: scale(1.15);
+		z-index: 10;
+	}
+
+	#general h6 {
+		clear: both;
+		margin: 1em auto -6em;
+		padding: .7em;
+	}
+
+	#general a {
+		color: whitesmoke;
+	}
+
+	#general h6:hover {
+		background-color: #1d1d1b;
+	}
+
+
+	/* PAGE ONE ABOUT SECTION */
+
+	#about {
+		background-color: #74B3FF;
+		padding: 1em 4em;
+		overflow: auto;
+	}
+
+	#about h2 {
+		padding: 0em 0em 1em;
+	}
+
+	#about img {
+	}
+
+	#about h6 {
+		margin-top: 1em;
+		width: 13.2em;
+	}
+
+	#about a {
+		color: whitesmoke;
+		margin-left: 0em;
+	}
+
+	#about h6:hover {
+		margin-left: 0em;
+		background-color: #1d1d1b;
+	}
+
+	.spacer1 {
+		height: 25vh;
+		background-image: linear-gradient(to bottom, #74B3FF, transparent);
+	}
+
+	.spacer2 {
+		height: 25vh;
+		background-image: linear-gradient(to top, #74B3FF, transparent);
+		clear: both;
+	}
+
+	.spacer3 {
+		height: 18vh;
+		clear: both;
+	}
+
+	.spacer4 {
+		margin: -2em 0em 0em;
+		height: 18vh;
+		clear: both;
+	}
+
+
+	/*PAGE TWO */
+
+	#blurb {
+		text-align: center;
+		margin-top: -2em;
+		padding: 7em 2em 3em;
+	}
+
+	#hikes {
+		padding: 2em 0em;
+		background-image: url('../images/background-01.png');
+		background-color: #9ACD32;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover;
+	}
+
+	#hikes h1 {
+		padding-left: 2em;
+		color: whitesmoke;
+	}
+
+	#scroll {
+		padding: 0em 3em;
+		display: flex;
+		gap: 3%;
+		overflow-x: auto;
+  		-webkit-overflow-scrolling: touch; 
+  		scrollbar-width: none; 
+		-ms-overflow-style: none;
+	}
+
+	#scroll::-webkit-scrollbar {
+		display: none;
+	}
+
+
+	.climb {
+		margin: 1em 0em;
+		padding: 3em 2.2em;
+		flex: 0 0 80%;
+		height: auto;
+		border-radius: 1.5em;
+  		background: rgba(255, 255, 255, 0.3); 
+  		backdrop-filter: blur(3px);
+  		border: 1.5px solid rgba(255, 255, 255, 0.25);
+  		box-shadow: 0 6px 15px 0 rgba(0, 0, 0, 0.15);
+	}
+
+
+	.climb img {
+		padding-bottom: .5em;
+	}
+	
+	.climb h2 {
+		color: #74B3FF;
+		font-size: 1.7em;
+	}
+
+	.climb h3 {
+		padding: .5em 0em;
+		color: #BF1F1F;
+	}
+
+	/*PAGE THREE */
+
+
+	#blog {
+		margin: -2em 0em 0em;
+		padding: 5.5em 4em 2em;
+		background-image: linear-gradient(to bottom, transparent, transparent, transparent, transparent, transparent, transparent, transparent, whitesmoke, whitesmoke), url('../images/fieldnotes-bg.jpg');
+		background-color: #9ACD32;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover;
+	}
+
+	.post {
+		margin-bottom: 1.5em;
+		padding: 2.2em;
+		border-radius: 1em;
+  		background: rgba(255, 255, 255, 0.3); 
+  		backdrop-filter: blur(4px);
+  		border: 1.5px solid rgba(255, 255, 255, 0.25);
+  		box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.15);
+	}
+
+	.post h3 {
+		padding: 1em 0em .5em;
+		color: whitesmoke;
+	}
+
+	.post h2 {
+		color: #BF1F1F;
+		line-height: 1em;
+	}
+
+	.date {
+		margin-top: 1em;
+	}
+
+	/* PAGE FOUR */
+
+	#gallery {
+		margin: -2em 0em 0em;
+		padding: 5.5em .9em 0em;
+	}
+
+	#gallery h1 {
+		padding-left: 2em;
+		color: #74B3FF;
+	}
+
+	div.scroll-container img {
+  		width: 100%;
+	}
+
+}
+
+
+	}
+
+
+/* Smartphones (portrait and landscape) ----------- max-width: 500px and less */
+
+/* iPads (portrait and landscape) ----------- 500px–900px */
+
+/* Desktops and laptops ----------- min-width: 900-980px */
+
+/* Large screens ----------- min-width: 980px and up */
