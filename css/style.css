@@ -432,7 +432,6 @@ and (min-width: 550px) {
 		margin: 0em 1em;
 		font-weight: 350;
 		display: none;
-		font-size: 2.5em;
 	}
 
 	nav a:hover {
@@ -569,7 +568,7 @@ and (min-width: 550px) {
 
 	#about h2 {
 		padding: 0em 0em 1em;
-		font-size: 2.5em;
+		font-size: 2em;
 	}
 
 	#about h6 {
