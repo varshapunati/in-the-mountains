@@ -384,7 +384,7 @@ and (min-width: 550px) {
 		font-family: "neulis-neue", sans-serif;
 		font-weight: 300;
 		font-style: italic; 
-		font-size: 3vw; /*sets a font size to the whole site*/
+		font-size: 5vw; /*sets a font size to the whole site*/
 		line-height: 1.3em; /*sets a font height or leading to the whole site*/
 		background-color: #f5f5f5;
 		color: #1D1D1B; /*sets a font color to the whole site*/ 
@@ -400,7 +400,7 @@ and (min-width: 550px) {
 		background-color: whitesmoke;
 		padding: 0em;
 		text-align: left;
-		font-size: 1.5em;
+		font-size: 2.5em;
 	}
 
 	.stay {
@@ -464,7 +464,7 @@ and (min-width: 550px) {
 	}
 
 	h6 {
-		font-size: 3.3vw;
+		font-size: 4.5vw;
 		background-color: #9ACD32;
 		color: #1d1d1b;
 		margin: 2em 0em;
@@ -633,7 +633,7 @@ and (min-width: 550px) {
 	#scroll {
 		padding: 0em 3em;
 		display: flex;
-		gap: 3%;
+		gap: 5%;
 		overflow-x: auto;
   		-webkit-overflow-scrolling: touch; 
   		scrollbar-width: none; 
@@ -677,7 +677,7 @@ and (min-width: 550px) {
 
 	#blog {
 		margin: -2em 0em 0em;
-		padding: 5.5em 4em 2em;
+		padding: 5.5em 2em 2em;
 		background-image: linear-gradient(to bottom, transparent, transparent, transparent, transparent, transparent, transparent, transparent, whitesmoke, whitesmoke), url('../images/fieldnotes-bg.jpg');
 		background-color: #9ACD32;
 		background-attachment: fixed;
