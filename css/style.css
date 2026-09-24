@@ -682,7 +682,7 @@ and (min-width: 550px) {
 	#blog {
 		margin: -2em 0em 0em;
 		padding: 5.5em 1em 2em;
-		background-image: linear-gradient(to bottom, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, whitesmoke, whitesmoke), url('../images/fieldnotes-bg.jpg');
+		background-image: linear-gradient(to bottom, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, whitesmoke, whitesmoke), url('../images/fieldnotes-bg.jpg');
 		background-color: #9ACD32;
 		background-attachment: fixed;
 		background-repeat: no-repeat;
@@ -708,7 +708,7 @@ and (min-width: 550px) {
 	.post h2 {
 		color: #BF1F1F;
 		line-height: .8em;
-		font-size: 2em;
+		font-size: 1.5em;
 	}
 
 	.date {
