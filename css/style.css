@@ -415,11 +415,11 @@ and (min-width: 550px) {
 
 	nav {
 		margin: 1.5em 0em 0em 1em;
-		width: 72%;
-		padding: .2em 0em;
+		width: 74%;
+		padding: .3em 0em;
 		position: fixed;           
     	z-index: 1000;
-    	border-radius: 1em;
+    	border-radius: .5em;
   		background: rgba(255, 255, 255, 0.3); 
   		backdrop-filter: blur(4px);
   		border: 1.5px solid rgba(255, 255, 255, 0.25);
