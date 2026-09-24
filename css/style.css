@@ -419,7 +419,7 @@ and (min-width: 550px) {
 		padding: .3em 0em;
 		position: fixed;           
     	z-index: 1000;
-    	border-radius: .5em;
+    	border-radius: .7em;
   		background: rgba(255, 255, 255, 0.3); 
   		backdrop-filter: blur(4px);
   		border: 1.5px solid rgba(255, 255, 255, 0.25);
@@ -437,18 +437,15 @@ and (min-width: 550px) {
 
 	nav a:hover {
 		color: #1D1D1B;
-		border-radius: 1em;
 	} 
 
 	nav a.stay {
         display: block;
-		border-radius: 1em;
     }
 
     nav:hover a {
     	display: block;
     	padding-bottom: .5em;
-		border-radius: 1em;
     }
 
 	footer {
