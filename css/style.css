@@ -493,13 +493,13 @@ and (min-width: 550px) {
 	/* PAGE ONE HERO SECTION */
 
 	#hero {
-		margin: -2em 0em 0em;
+		margin: -1em 0em 0em;
 		padding: 0em;
 	}
 
 	#hero img {
 		width: 100%;
-		margin-top: 0em;
+		margin-top: -.5em;
 	}
 
 	/* PAGE ONE GENERAL SECTION */
