@@ -414,7 +414,7 @@ and (min-width: 550px) {
 	}
 
 	nav {
-		margin: 1em 0em 0em 1em;
+		margin: .7em 0em 0em 1em;
 		width: 74%;
 		padding: .2em 0em;
 		position: fixed;           
@@ -499,7 +499,7 @@ and (min-width: 550px) {
 
 	#hero img {
 		width: 100%;
-		margin-top: -.5em;
+		margin-top: -1em;
 	}
 
 	/* PAGE ONE GENERAL SECTION */
